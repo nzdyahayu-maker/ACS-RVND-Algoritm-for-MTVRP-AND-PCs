@@ -44,10 +44,13 @@ st.markdown(f"""
         background-attachment: fixed !important;
     }}
     
+    header[data-testid="stHeader"] {{
+        background: transparent !important;
+    }}
     .univ-logo {{
         position: fixed;
-        top: 20px;
-        right: 40px;
+        top: 62px;
+        right: 35px;
         width: 140px;
         z-index: 9999;
     }}
